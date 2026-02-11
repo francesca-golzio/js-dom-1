@@ -11,10 +11,12 @@ const btnEl = document.getElementById('btn');
 
 btnEl.addEventListener('click', function() {
 
-
+//console.log(btnEl.classList);
+//btnEl.innerHTML = 'Spegni';
 
 //const bulbProperties = bulbImgEl.classList;
 //console.log(bulbProperties);
+bulbImgEl.style.transition = 'all 2s';
 bulbImgEl.src = './assets/img/yellow_lamp.png';
 bulbImgEl.alt = 'lampadina accesa';
 //bulbImgEl.style.transformOrigin = '-1 0'; //NON funziona...
