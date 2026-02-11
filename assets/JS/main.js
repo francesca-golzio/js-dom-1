@@ -68,6 +68,50 @@ btnEl.addEventListener('click', function() {
 })
 
 
+/* ⭐ BONUS */ // CON string.includes()... sono molto simili
+
+// /* Set button style */
+// btnEl.style.backgroundColor = 'yellow';
+// btnEl.style.color = 'black';
+// btnEl.style.borderRadius = '30px';
+
+// /* Switch 💡 on / off 📴 function */
+// btnEl.addEventListener('click', function() {  
+
+//   const btnSwitchOn = (btnEl.innerHTML).includes('Accendi');
+//   //const buttonLabel = btnEl.innerHTML;
+//   //console.log(buttonLabel);
+//  console.log(btnSwitchOn);
+
+//   /* Switch on 💡 */
+//   if(btnSwitchOn) {
+    
+//     /* changes to button 🔘 */
+//     btnEl.innerHTML = 'Spegni';
+//     btnEl.style.backgroundColor = 'black';
+//     btnEl.style.color = 'yellow';
+    
+//     /* changes to bulb img 🖼️ */
+//     bulbImgEl.style.transition = 'all 2s';
+//     bulbImgEl.src = '../assets/img/yellow_lamp.png';
+//     bulbImgEl.alt = 'lampadina accesa';
+//   }
+  
+//   /* Switch off 📴 */
+//   if(!btnSwitchOn) {    
+    
+//     /* changes to button 🔘 */
+//     btnEl.innerHTML = 'Accendi';
+//     btnEl.style.backgroundColor = 'yellow';
+//     btnEl.style.color = 'black';
+
+//     /* changes to bulb img 🖼️ */    
+//     bulbImgEl.style.transition = 'all 2s';
+//     bulbImgEl.src = '../assets/img/white_lamp.png';
+//     bulbImgEl.alt = 'lampadina spenta';
+//   }
+
+// })
 
 
 
