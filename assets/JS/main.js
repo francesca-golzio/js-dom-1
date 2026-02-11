@@ -12,7 +12,7 @@ const btnEl = document.getElementById('btn');
 btnEl.addEventListener('click', function() {
 
 //console.log(btnEl.classList);
-//btnEl.innerHTML = 'Spegni';
+btnEl.innerHTML = 'Spegni';
 
 //const bulbProperties = bulbImgEl.classList;
 //console.log(bulbProperties);
