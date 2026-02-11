@@ -26,16 +26,24 @@ const btnEl = document.getElementById('btn');
 
 /* ⭐ BONUS */ // Senza string.includes() 🤔
 
+/* Set button style */
+btnEl.style.backgroundColor = 'yellow';
+btnEl.style.color = 'black';
+btnEl.style.borderRadius = '30px';
+
+/* Switch 💡 on / off 📴 function */
 btnEl.addEventListener('click', function() {  
 
   const buttonLabel = btnEl.innerHTML;
-  console.log(buttonLabel);
+  //console.log(buttonLabel);
 
   /* Switch on 💡 */
   if(buttonLabel === 'Accendi') {
     
     /* changes to button 🔘 */
     btnEl.innerHTML = 'Spegni';
+    btnEl.style.backgroundColor = 'black';
+    btnEl.style.color = 'yellow';
     
     /* changes to bulb img 🖼️ */
     bulbImgEl.style.transition = 'all 2s';
@@ -45,9 +53,11 @@ btnEl.addEventListener('click', function() {
   
   /* Switch off 📴 */
   if(buttonLabel === 'Spegni') {    
-
+    
     /* changes to button 🔘 */
     btnEl.innerHTML = 'Accendi';
+    btnEl.style.backgroundColor = 'yellow';
+    btnEl.style.color = 'black';
 
     /* changes to bulb img 🖼️ */    
     bulbImgEl.style.transition = 'all 2s';
